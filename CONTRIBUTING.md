@@ -32,6 +32,8 @@ Before opening a PR, follow these steps to properly build and test the project:
 8. Create a pull request on the **[`dev`](https://github.com/juliangarnier/anime/tree/dev)** branch.
 
 > **Personal note:** For local experimentation in this fork, I sometimes skip step 8 and just work directly on the `main` branch since this is a personal learning fork and PRs to upstream are not the goal.
+>
+> **Local dev tip:** I find it useful to also run `npm run test-browser` after every significant change in `/src`, not just at the end — it catches regressions early and saves time debugging later.
 
 ## Consider supporting this project via GitHub Sponsors
 
