@@ -34,6 +34,8 @@ Before opening a PR, follow these steps to properly build and test the project:
 > **Personal note:** For local experimentation in this fork, I sometimes skip step 8 and just work directly on the `main` branch since this is a personal learning fork and PRs to upstream are not the goal.
 >
 > **Local dev tip:** I find it useful to also run `npm run test-browser` after every significant change in `/src`, not just at the end — it catches regressions early and saves time debugging later.
+>
+> **Node version:** I've had the smoothest experience running this project on Node 18.x. Later versions (20+) work too, but I noticed some minor warnings during `npm i` on Node 20 that can be safely ignored.
 
 ## Consider supporting this project via GitHub Sponsors
 
