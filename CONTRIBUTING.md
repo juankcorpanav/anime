@@ -36,6 +36,8 @@ Before opening a PR, follow these steps to properly build and test the project:
 > **Local dev tip:** I find it useful to also run `npm run test-browser` after every significant change in `/src`, not just at the end — it catches regressions early and saves time debugging later.
 >
 > **Node version:** I've had the smoothest experience running this project on Node 18.x. Later versions (20+) work too, but I noticed some minor warnings during `npm i` on Node 20 that can be safely ignored.
+>
+> **Editor setup:** If you're using VS Code, installing the [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [JSDoc Markdown highlighting](https://marketplace.visualstudio.com/items?itemName=bierner.jsdoc-markdown-highlighting) extensions makes working with the JSDoc annotations noticeably more pleasant.
 
 ## Consider supporting this project via GitHub Sponsors
 
