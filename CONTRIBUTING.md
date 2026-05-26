@@ -39,7 +39,4 @@ Before opening a PR, follow these steps to properly build and test the project:
 >
 > **Editor setup:** If you're using VS Code, installing the [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [JSDoc Markdown highlighting](https://marketplace.visualstudio.com/items?itemName=bierner.jsdoc-markdown-highlighting) extensions makes working with the JSDoc annotations noticeably more pleasant.
 >
-> **Debugging tip:** When a test fails in `test-browser`, opening the browser console and filtering by the test suite name makes it much easier to isolate which assertion is failing — especially when multiple tests share similar animation targets.
-
-## Consider supporting the project
-If you find anime.js useful, consider [sponsoring Julian](https://github.com/sponsors/juliangarnier) to support continued development.
+> **Debugging tip:** When something isn't animating as expected, adding a temporary `console.log` inside the relevant `src/` file and rebuilding with `npm run dev-types` is usually the fastest way to pinpoint the issue — the source files are readable enough that it's easy to trace the execution flow.
