@@ -38,7 +38,8 @@ Before opening a PR, follow these steps to properly build and test the project:
 > **Node version:** I've had the smoothest experience running this project on Node 18.x. Later versions (20+) work too, but I noticed some minor warnings during `npm i` on Node 20 that can be safely ignored.
 >
 > **Editor setup:** If you're using VS Code, installing the [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [JSDoc Markdown highlighting](https://marketplace.visualstudio.com/items?itemName=bierner.jsdoc-markdown-highlighting) extensions makes working with the JSDoc annotations noticeably more pleasant.
+>
+> **Debugging tip:** When a test fails in `test-browser`, opening the browser console and filtering by the test suite name makes it much easier to isolate which assertion is failing — especially when multiple tests share similar animation targets.
 
-## Consider supporting this project via GitHub Sponsors
-
-I couldn't respond to issues and fix bugs without the support of my sponsors. If you find Anime.js valuable in your work, please consider becoming a sponsor via [GitHub Sponsors](https://github.com/sponsors/juliangarnier)! ❤️
+## Consider supporting the project
+If you find anime.js useful, consider [sponsoring Julian](https://github.com/sponsors/juliangarnier) to support continued development.
